@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "release": "gulp",
+    "clean:dist": "gulp clean:dist"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "del": "^2.2.1",
+    "eslint": "^2.13.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

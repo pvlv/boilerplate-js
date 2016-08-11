@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": [ "eslint:recommended" ],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "quotes": [1, "single", {"avoidEscape": true, "allowTemplateLiterals": true}]
+  }
+}
