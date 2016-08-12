@@ -1,4 +1,4 @@
-PROJECT_NAME := accord
+PROJECT_NAME := plugin
 APP_DIR := app
 WORK_DIR := /data
 

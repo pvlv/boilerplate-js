@@ -1,7 +1,7 @@
 PROJECT_NAME := accord_example
 APP_DIR := app
 WORK_DIR := /data
-EXAMPLE_DIR := example
+EXAMPLE_DIR := plugin
 CONTAINER_PORT := 7121
 LOCAL_PORT := 7121
 
