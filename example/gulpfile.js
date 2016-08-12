@@ -13,19 +13,18 @@ gulp.task('js:compile', () => {
   return gulp.src('../src/index.js')
     .pipe(sourcemap.init())
     .pipe(babel())
-    .pipe(rename({ basename: 'accord' }))
+    .pipe(rename({ basename: 'plugin' }))
     .pipe(sourcemap.write('.'))
     .pipe(gulp.dest('./js'));
 })
 
 gulp.task('server', () => {
     server.init({
-        server: './',
-        port: 7121,
-        open: false,
-        notify: false
+      server: './',
+      port: 7121,
+      open: false,
+      notify: false
     });
-
     gulp.watch(['../src/index.js'], gulp.series('js:compile'));
     gulp.watch(['./index.html', './js/**']).on('change', server.reload);
 });
